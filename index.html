@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>T1fy | Developer</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; line-height:1.6; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  h2 { font-size:1.2rem; margin:40px 0 12px; border-bottom:1px solid var(--border); padding-bottom:6px; }
+  .tag { color:var(--muted); margin:0 0 16px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .skills { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; }
+  .card h3 { margin:0 0 4px; font-size:1.05rem; }
+  .card p { margin:0; color:var(--muted); font-size:.95rem; }
+  .pill { display:inline-block; font-size:.75rem; padding:2px 8px; border:1px solid var(--border); border-radius:999px; color:var(--muted); margin:8px 6px 0 0; }
+  .projects { display:grid; gap:12px; }
+  footer { margin-top:48px; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hi, I'm T1fy</h1>
+  <p class="tag">Python &amp; C++ developer. I build mods, tools, apps, and even my own programming language.</p>
+  <p><a href="https://github.com/T1fyOwO">GitHub</a></p>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>Python</h3>
+      <p>~2 years of experience.</p>
+    </div>
+    <div class="card">
+      <h3>C++</h3>
+      <p>~1 year of experience.</p>
+    </div>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3><a href="https://github.com/C-Slash/">C/ (C-slash)</a></h3>
+      <p>Lightweight Coding Language Based Off Of C++, And C.</p>
+      <span class="pill">C++</span><span class="pill">Language design</span>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/Vbot-Macro/Vbot">Vbot</a></h3>
+      <p>A Geometry Dash mod built with the Geode framework.</p>
+      <span class="pill">C++</span><span class="pill">Geode</span>
+    </div>
+  </div>
+
+  <footer>&copy; T1fy</footer>
+</main>
+</body>
+</html>
